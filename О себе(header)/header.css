@@ -1,0 +1,12 @@
+.logo{
+    height: 100px;
+}
+
+.list{
+    display: inline;
+}
+
+.list-item{
+    display: inline;
+    margin-right: 150px;
+}
