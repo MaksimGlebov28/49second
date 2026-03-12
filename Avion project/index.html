@@ -4,100 +4,255 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.less">
-    <link rel="stylesheet" href="style.css">    
-</head>
 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.less">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+</head>
 <body>
+
+    <header>
+        <div class="top-nav">
+
+            <div class="top-nav__up">
+
+                <span class="material-symbols-outlined  top-nav__icons">
+                search
+                </span>
+
+                <p class="title">Avion</p>
+
+                <div class="top-nav__up-right">
+                    <span class="material-symbols-outlined top-nav__icons">
+                    shopping_cart
+                    </span>
+
+                    <span class="material-symbols-outlined top-nav__icons">
+                    account_circle
+                    </span>
+                </div>
+
+                
+            </div>
+
+            <hr class="top-nav__line">
+
+            <ul class="top-nav__links">
+                <li class="top-nav__links-item">Plant pots</li>
+                <li class="top-nav__links-item">Ceramics</li>
+                <li class="top-nav__links-item">Tables</li>
+                <li class="top-nav__links-item">Chairs</li>
+                <li class="top-nav__links-item">Crockery</li>
+                <li class="top-nav__links-item">Tableware</li>
+                <li class="top-nav__links-item">Cutlery</li>
+            </ul>
+            
+            <div class="top-nav__down">
+                
+            </div>
+
+        </div>
+    </header>
+
+
     <main>
 
-            <div class="lisings-menu">
-                <h2 class="lisings-menu__item__up">New ceramics</h2>
 
-            <div class="lisings-menu__block">
+        <div class="heroBlocks">
+            <div class="heroBlocks__conteiner">
+                <div class="heroBlocks__conteiner-topContent">
+                    <p class="heroBlocks__conteiner-topContent-text">
+                        The furniture brand for the <br>
+                        future, with timeless designs</p>
 
-                <div class="product-card">
-                   <img src="img/Parent1.png" alt="">
-                   <h4>The Dandy chair</h4>
-                   <p>£250</p>
-                </div>
-
-                <div class="product-card">
-                    <img src="img/Parent.png" alt="">
-                    <h4>Rustic Vase Set</h4>
-                    <p>£155</p>
-                </div>
-
-                <div class="product-card">
-                    <img class="size" src="img/Parent (1).png" alt="">
-                    <h4>The Silky Vase</h4>
-                    <p>£125</p>
-                </div>
-
-                <div class="product-card">
-                    <img src="img/Parent (2).png" alt="">
-                    <h4>The Dandy chair</h4>
-                    <p>£399</p>
-                </div>
-            </div>
-                <div class="heroBlocks">
-                     <button class="heroBlocks__conteiner-topContent-btn__active">
-                     View collection
+                    <button class="heroBlocks__conteiner-topContent-btn">
+                        View collection
                     </button>
-                </div>
-        </div>
 
-
-        <div class="lisings-menu__details">
-            <h2 class="lisings-menu__item__down">Our popular products</h2>
-
-            <div class="lisings-menu__block">
-
-                <div class="product-card">
-                   <img src="img/Large.png" alt="">
-                   <h4>The Poplar suede sofa</h4>
-                   <p>£980</p>
                 </div>
 
-                <div class="product-card">
-                    <img src="img/Parent1.png" alt="">
-                    <h4>The Dandy chair</h4>
-                    <p>£250</p>
-                </div>
+                <p class="heroBlocks__conteiner-downText">A new era in eco friendly furniture with Avelon, the French luxury retail brand
+                with nice fonts, tasteful colors and a beautiful way to display things digitally 
+                using modern web technologies.</p>
 
-                <div class="product-card">
-                    <img class="size" src="img/Photo.png" alt="">
-                    <h4>The Dandy chair</h4>
-                    <p>£250</p>
-                </div>
             </div>
 
-                <div class="heroBlocks">
-                     <button class="heroBlocks__conteiner-topContent-btn__active">
-                     View collection
-                    </button>
-                </div>
-        </div>
-        
+            <img src="img/Right Image.png" alt="">
 
-        <div class="email-sign__up">
-            <div class="email-sign_inside">
-                <div class="content-text">
-                    <h1 class="content-text__size">Join the club and get the benefits</h1>
-                        <div class="content-text__mini">
-                             <p>Sign up for our newsletter and receive exclusive offers on new <br> ranges, sales, pop up stores and more</p>
-                        </div>
-                
-                        <form action="#" class="e-mail-form">
-                            <input type="email" class="email" placeholder="Введите ваш e-mail" required>
-                            <button class="button-img__input">
-                                <img src="img/Button.png" alt="Send">
-                            </button>
-                        </form>
-                </div>
-            </div>
         </div>
+
+
+        <div class="features">
+
+            <p class="features__up">What makes our brand    different</p>
+
+            <div class="features__featureBlock">
+
+                <div class="features__featureBlock__item">
+
+                    <span class="material-symbols-outlined features__featureBlock-icon">
+                        delivery_truck_speed
+                    </span>
+
+                    <p class="features__featureBlock__item-textUp">Next day as standard</p>
+
+                    <p class="features__featureBlock__item-textDown">Order before 3pm and get your order
+                    the next day as standard</p>
+
+                </div>
+
+
+                <div class="features__featureBlock__item">
+
+                    <span class="material-symbols-outlined features__featureBlock-icon">
+                        check_circle
+                    </span>
+
+                    <p class="features__featureBlock__item-textUp">Made by true artisans</p>
+
+                    <p class="features__featureBlock__item-textDown">Handmade crafted goods made with
+                    real passion and craftmanship</p>
+
+                </div>
+
+
+                <div class="features__featureBlock__item">
+
+                    <span class="material-symbols-outlined features__featureBlock-icon">
+                        credit_card
+                    </span>
+
+                    <p class="features__featureBlock__item-textUp">Unbeatable prices</p>
+
+                    <p class="features__featureBlock__item-textDown">For our materials and quality you won’t find better prices anywhere</p>
+
+                </div>
+
+
+                 <div class="features__featureBlock__item">
+
+                    <span class="material-symbols-outlined features__featureBlock-icon">
+                        psychiatry
+                    </span>
+
+                    <p class="features__featureBlock__item-textUp">Recycled packaging</p>
+
+                    <p class="features__featureBlock__item-textDown">We use 100% recycled packaging to ensure our footprint is manageable</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="featuresDown">
+            <div class="featuresDown__leftContent">
+                <div class="featuresDown__leftContent-topContent">
+                    <p class="featuresDown__leftContent-topContent-up">From a studio in London to a global brand with
+                        over 400 outlets
+                    </p>
+
+                    <p class="featuresDown__leftContent-topContent-down">When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. <br><br>
+                    Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
+                </div>
+
+                <button class="featuresDown__leftContent-btn">
+                        Get in touch
+                </button>
+
+            </div>
+
+            <img src="img/Image.png" alt="" class="featuresDown__img">
+
+        </div>
+
     </main>
-</body>
 
+
+    <footer>
+        <div class="conteiner">
+            <div class="conteiner__top">
+
+                <div class="conteiner__top__left">
+                    <div>
+                        <p class="conteiner__top__left__title">Menu</p>
+                        <ul class="conteiner__top__left__list">
+                            <li class="conteiner__top__left__list-item">New arrivals</li>
+                            <li class="conteiner__top__left__list-item">Best sellers</li>
+                            <li class="conteiner__top__left__list-item">Recently viewed</li>
+                            <li class="conteiner__top__left__list-item">Popular this week</li>
+                            <li class="conteiner__top__left__list-item">All products</li>
+                        </ul>
+                 
+                    </div>
+
+                    <div>
+                        <p class="conteiner__top__left__title">Categories</p>
+                        <ul class="conteiner__top__left__list">
+                            <li class="conteiner__top__left__list-item">Crockery</li>
+                            <li class="conteiner__top__left__list-item">Furniture</li>
+                            <li class="conteiner__top__left__list-item">Homeware</li>
+                            <li class="conteiner__top__left__list-item">Plant pots</li>
+                            <li class="conteiner__top__left__list-item">Chairs</li>
+                            <li class="conteiner__top__left__list-item">Crockery</li>
+                        </ul>
+                 
+                    </div>
+
+                    <div>
+                        <p class="conteiner__top__left__title">Our company</p>
+                        <ul class="conteiner__top__left__list">
+                            <li class="conteiner__top__left__list-item">About us</li>
+                            <li class="conteiner__top__left__list-item">Vacancies</li>
+                            <li class="conteiner__top__left__list-item">Contact us</li>
+                            <li class="conteiner__top__left__list-item">Privacy</li>
+                            <li class="conteiner__top__left__list-item">Returns policy</li>
+                        </ul>
+                    </div>
+
+                </div>
+            
+
+                <div class="conteiner__top-right">
+
+                    <p class="conteiner__top__left__title">Join our mailing list</p>
+
+                     <form action="#" class="emailForm">
+                        <input type="email" class="emailForm__email" placeholder="your@email.com" required>
+                        <button class="emailForm__button">
+                                Sing up
+                        </button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <hr class="conteiner__line">
+
+            <div class="conteiner__bottom">
+
+                <p class="conteiner__bottom-text">Copyright 2022 Avion LTD</p>
+
+                <div class="conteiner__bottom-socialLinks">
+                    <img src="img/Logo--linkedin.png" alt="">
+                    <img src="img/Logo--facebook.png" alt="">
+                    <img src="img/Logo--instagram.png" alt="">
+                    <img src="img/Logo--skype.png" alt="">
+                    <img src="img/Logo--twitter.png" alt="">
+                    <img src="img/Logo--pinterest.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    
+</body>
+  
 </html>
